@@ -11,18 +11,21 @@
     >
   </head>
 <body class="app">
-  <div class="image-block">
-    <img src="./eisenhower-matrix.jpg">
+  <section class="image-block">
+    <img 
+      src="./eisenhower-matrix.jpg" 
+      alt="Eisenhower matrix"
+    >
     <a class="image-block__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="app-block">
-    <p id="add-task">
+  </section>
+  <main class="app-block">
+    <section id="add-task">
       <label for="new-task">Add Item</label>
-      <div class="task-row">
+      <article class="task-row">
         <input id="new-task" class="task-row__task" type="text">
         <button class="btn">Add</button>
-      </div>
-    </p>
+      </article>
+    </section>
     <h3 class="subtitle">Todo</h3>
     <ul class="tasks-list" id="incomplete-tasks">
       <li class="tasks-list__item">
@@ -31,7 +34,7 @@
         <input type="text" class="task">
         <button class="btn btn_edit">Edit</button>
         <button class="btn btn_delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" alt="Remove icon">
         </button>
       </li>
       <li class="tasks-list__item edit-mode">
@@ -44,7 +47,7 @@
         >
         <button class="btn btn_edit">Save</button>
         <button class="btn btn_delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" alt="Remove icon">
         </button>
       </li>
     </ul>
@@ -56,11 +59,11 @@
         <input type="text" class="task">
         <button class="btn btn_edit">Edit</button>
         <button class="btn btn_delete">
-          <img src="./remove.svg">
+          <img src="./remove.svg" alt="Remove icon">
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
